@@ -1,7 +1,7 @@
 import React from "react";
-import Headers from "../layouts/Header";
-import Footers from "../layouts/Footer";
-import Preloader from "../layouts/Preloader";
+import Headers from "./Header";
+import Footers from "./Footer";
+import Preloader from "./Preloader";
 
 export default function index({ children }) {
   return (
