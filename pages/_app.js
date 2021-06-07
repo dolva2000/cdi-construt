@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Layout from "../components/layouts";
+import Layout from "../components/Layouts";
 
 function MyApp({ Component, pageProps }) {
   return (
