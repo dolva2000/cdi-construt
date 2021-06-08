@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Layout from "../components/Layouts";
+import Layouts from "../components/Layouts";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -34,9 +34,9 @@ function MyApp({ Component, pageProps }) {
 
         <link rel="stylesheet" href="css/building.css" />
       </Head>
-      <Layout>
+      <Layouts>
         <Component {...pageProps} />
-      </Layout>
+      </Layouts>
     </>
   );
 }
